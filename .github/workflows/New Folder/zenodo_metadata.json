@@ -1,0 +1,17 @@
+{
+  "upload_type": "software",
+  "publication_type": "softwaredocumentation",
+  "title": "Meta-Optimized Hybrid Neuro-Symbolic Reasoning Framework",
+  "creators": [
+    {
+      "name": "Oates, Ryan",
+      "affiliation": "Jumping Quail Solutions",
+      "orcid": "0009-0008-8161-0471 "
+    }
+  ],
+  "description": "This framework implements a meta-optimization-based approach for hybrid automated theorem proving, integrating symbolic reasoning, neural pattern recognition, and cognitive-aligned regularization. Developed to support transparent, interpretable AI systems rooted in biopsychology, cognitive science, and advanced logic verification.",
+  "keywords": ["neuro-symbolic", "theorem proving", "cognitive AI", "meta-optimization", "hybrid reasoning"],
+  "license": "AGPL-3.0-only",
+  "related_identifiers": [],
+  "version": "1.0.0"
+}

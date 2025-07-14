@@ -14,6 +14,8 @@
 		6FE9E4232E2587120016019F /* LICENSE_PPL.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE_PPL.txt; sourceTree = "<group>"; };
 		6FE9E4242E2587120016019F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6FE9E4322E258D9A0016019F /* .env */ = {isa = PBXFileReference; lastKnownFileType = text; path = .env; sourceTree = "<group>"; };
+		6FE9E4332E25935E0016019F /* .swift */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swift; sourceTree = "<group>"; };
+		6FE9E4342E25937E0016019F /* Untitled 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Untitled 2.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -42,6 +44,8 @@
 				6FE9E42C2E2588BB0016019F /* src */,
 				6FE9E42E2E2588C20016019F /* docs */,
 				6FE9E41F2E2587120016019F /* AUTHORS.md */,
+				6FE9E4332E25935E0016019F /* .swift */,
+				6FE9E4342E25937E0016019F /* Untitled 2.swift */,
 				6FE9E4202E2587120016019F /* community_contributor_agreement.md */,
 				6FE9E4212E2587120016019F /* CONTRIBUTING.md */,
 				6FE9E4222E2587120016019F /* LICENSE_AGPL.txt */,

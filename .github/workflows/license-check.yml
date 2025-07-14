@@ -1,4 +1,6 @@
-name: Validate License Compliance
+# Reconstructing the GitHub Actions YAML manually instead of loading it from a file
+
+github_actions_yml = """name: Validate License Compliance
 
 on:
   push:
@@ -17,7 +19,7 @@ jobs:
       - name: Search for license headers
         run: |
           echo "Checking for license compliance..."
-          MISSING=$(grep -L "Copyright (C) Ryan Oates" $(find ./src -type f \( -name '*.py' -o -name '*.js' -o -name '*.rs' -o -name '*.swift' -o -name '*.java' \)))
+          MISSING=$(grep -L "Copyright (C) Ryan Oates" $(find ./src -type f \\( -name '*.py' -o -name '*.js' -o -name '*.rs' -o -name '*.swift' -o -name '*.java' \\)))
           if [ -n "$MISSING" ]; then
             echo "The following files are missing license headers:" && echo "$MISSING"
             exit 1

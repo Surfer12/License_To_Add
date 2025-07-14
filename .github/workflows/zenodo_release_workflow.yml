@@ -1,0 +1,42 @@
+name: Upload Release to Zenodo
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  publish-to-zenodo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Upload to Zenodo
+        env:
+          ZENODO_TOKEN: ${{ secrets.ZENODO_TOKEN }}
+        run: |
+          echo "Preparing Zenodo upload..."
+
+          # Read metadata
+          METADATA=$(cat zenodo_metadata.json)
+
+          # Create new deposition
+          DEPOSITION=$(curl -s -X POST https://zenodo.org/api/deposit/depositions             -H "Content-Type: application/json"             -H "Authorization: Bearer $ZENODO_TOKEN"             -d "$METADATA")
+
+          DEPOSITION_ID=$(echo $DEPOSITION | python3 -c "import sys, json; print(json.load(sys.stdin)['id'])")
+
+          echo "Created deposition ID: $DEPOSITION_ID"
+
+          # Upload release ZIP
+          curl -X POST https://zenodo.org/api/deposit/depositions/$DEPOSITION_ID/files             -H "Authorization: Bearer $ZENODO_TOKEN"             -F "file=@release.zip"
+
+          echo "✅ Zenodo upload complete."
