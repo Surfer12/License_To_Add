@@ -64,7 +64,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1640;
 			};
-			buildConfigurationList = 6FE9E4172E2581F90016019F /* Build configuration list for PBXProject "meta-optimized-reasoning-framework" */;
+			buildConfigurationList = 6FE9E4172E2581F90016019F /* Build configuration list for PBXProject "License-to-add" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -97,7 +97,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6FE9E4172E2581F90016019F /* Build configuration list for PBXProject "meta-optimized-reasoning-framework" */ = {
+		6FE9E4172E2581F90016019F /* Build configuration list for PBXProject "License-to-add" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6FE9E4182E2581F90016019F /* Debug */,
