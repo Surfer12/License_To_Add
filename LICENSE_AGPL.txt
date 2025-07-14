@@ -1,0 +1,17 @@
+GNU AFFERO GENERAL PUBLIC LICENSE
+Version 3, 19 November 2007
+
+Copyright (C) Ryan Oates, 2025
+Author of the Meta-Optimized Hybrid Neuro-Symbolic Reasoning Framework
+
+Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.
+
+[... standard AGPL license text continues ...]
+
+This software is released under the AGPLv3 license. Any public use, modification, or networked deployment of this software must also make the full source code available under the same license.
+
+This includes derivative works built upon the core optimization framework, symbolic/neural integration logic, or cognitive regularization components described in:
+
+> “Meta-Optimization in Hybrid Theorem Proving: Cognitive-Constrained Reasoning Framework” by Ryan Oates, 2025
+
+For citation and attribution, please reference the original work and its DOI: [pending Zenodo link]

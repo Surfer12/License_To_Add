@@ -1,0 +1,106 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXFileReference section */
+		6FE9E41F2E2587120016019F /* AUTHORS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = AUTHORS.md; sourceTree = "<group>"; };
+		6FE9E4202E2587120016019F /* community_contributor_agreement.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = community_contributor_agreement.md; sourceTree = "<group>"; };
+		6FE9E4212E2587120016019F /* CONTRIBUTING.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTING.md; sourceTree = "<group>"; };
+		6FE9E4222E2587120016019F /* LICENSE_AGPL.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE_AGPL.txt; sourceTree = "<group>"; };
+		6FE9E4232E2587120016019F /* LICENSE_PPL.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE_PPL.txt; sourceTree = "<group>"; };
+		6FE9E4242E2587120016019F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		6FE9E42A2E25889C0016019F /* .github */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = .github;
+			sourceTree = "<group>";
+		};
+		6FE9E42C2E2588BB0016019F /* src */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = src;
+			sourceTree = "<group>";
+		};
+		6FE9E42E2E2588C20016019F /* docs */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = docs;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXGroup section */
+		6FE9E4132E2581F90016019F = {
+			isa = PBXGroup;
+			children = (
+				6FE9E42A2E25889C0016019F /* .github */,
+				6FE9E42C2E2588BB0016019F /* src */,
+				6FE9E42E2E2588C20016019F /* docs */,
+				6FE9E41F2E2587120016019F /* AUTHORS.md */,
+				6FE9E4202E2587120016019F /* community_contributor_agreement.md */,
+				6FE9E4212E2587120016019F /* CONTRIBUTING.md */,
+				6FE9E4222E2587120016019F /* LICENSE_AGPL.txt */,
+				6FE9E4232E2587120016019F /* LICENSE_PPL.txt */,
+				6FE9E4242E2587120016019F /* README.md */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		6FE9E4142E2581F90016019F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1640;
+			};
+			buildConfigurationList = 6FE9E4172E2581F90016019F /* Build configuration list for PBXProject "meta-optimized-reasoning-framework" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FE9E4132E2581F90016019F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		6FE9E4182E2581F90016019F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		6FE9E4192E2581F90016019F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FE9E4172E2581F90016019F /* Build configuration list for PBXProject "meta-optimized-reasoning-framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FE9E4182E2581F90016019F /* Debug */,
+				6FE9E4192E2581F90016019F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FE9E4142E2581F90016019F /* Project object */;
+}

@@ -1,0 +1,35 @@
+Peer Production License (PPL)
+Version 1.0 — Adapted for Cognitive-Computational Frameworks
+
+Author: Ryan Oates
+Year: 2025
+Project: Meta-Optimized Hybrid Neuro-Symbolic Reasoning Framework
+
+Summary:
+This license allows **ethical, commons-oriented actors** — cooperatives, student groups, researchers, and non-profits — to freely use, modify, and share this work **as long as they are not commercial or extractive in nature**.
+
+Entities engaging in for-profit activities or receiving venture/private capital must **purchase a separate commercial license** from the author.
+
+---
+
+Permission is hereby granted to use this work under the following terms:
+
+1. **Qualified Use Only**
+   This software may be used, modified, and distributed **exclusively** by entities that qualify as:
+   - Worker-owned cooperatives
+   - Federated academic research collectives
+   - Ethical AI labs not funded by capital extraction
+   - Independent developers contributing to the digital commons
+
+2. **Commercial Restriction**
+   For-profit companies, VCs, foundations, and platforms may not use, resell, or incorporate this code without a separate license granted by Ryan Oates.
+
+3. **Attribution Requirement**
+   All derivative works must include the original author’s name and the framework’s title, in both code comments and documentation.
+
+4. **No Enclosure**
+   No party may integrate this code into proprietary systems or wrap it behind closed APIs without express written permission.
+
+---
+
+This license is a declaration of cognitive and computational sovereignty. For commercial licenses or questions, contact: ryan_oates@my.cuesta.edu

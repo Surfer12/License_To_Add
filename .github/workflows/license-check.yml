@@ -1,0 +1,34 @@
+name: Validate License Compliance
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  check-license:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Search for license headers
+        run: |
+          echo "Checking for license compliance..."
+          MISSING=$(grep -L "Copyright (C) Ryan Oates" $(find ./src -type f \( -name '*.py' -o -name '*.js' -o -name '*.rs' -o -name '*.swift' -o -name '*.java' \)))
+          if [ -n "$MISSING" ]; then
+            echo "The following files are missing license headers:" && echo "$MISSING"
+            exit 1
+          else
+            echo "✅ All source files include license headers."
+          fi
+
+      - name: Verify README and LICENSE files exist
+        run: |
+          [ -f README.md ] && [ -f LICENSE_AGPL.txt ] && [ -f LICENSE_PPL.txt ] && echo "✅ Required top-level files are present." || (echo "❌ Missing README or license files." && exit 1)
+
+      - name: Confirm authorship metadata
+        run: |
+          grep -q "Ryan Oates" README.md && echo "✅ Authorship metadata found in README." || (echo "❌ Author metadata missing." && exit 1)
