@@ -13,6 +13,7 @@
 		6FE9E4222E2587120016019F /* LICENSE_AGPL.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE_AGPL.txt; sourceTree = "<group>"; };
 		6FE9E4232E2587120016019F /* LICENSE_PPL.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE_PPL.txt; sourceTree = "<group>"; };
 		6FE9E4242E2587120016019F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6FE9E4322E258D9A0016019F /* .env */ = {isa = PBXFileReference; lastKnownFileType = text; path = .env; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -46,6 +47,7 @@
 				6FE9E4222E2587120016019F /* LICENSE_AGPL.txt */,
 				6FE9E4232E2587120016019F /* LICENSE_PPL.txt */,
 				6FE9E4242E2587120016019F /* README.md */,
+				6FE9E4322E258D9A0016019F /* .env */,
 			);
 			sourceTree = "<group>";
 		};
