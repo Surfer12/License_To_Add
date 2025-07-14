@@ -64,7 +64,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1640;
 			};
-			buildConfigurationList = 6FE9E4172E2581F90016019F /* Build configuration list for PBXProject "License-to-add" */;
+			buildConfigurationList = 6FE9E4172E2581F90016019F /* Build configuration list for PBXProject "License-To-Add" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -97,7 +97,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6FE9E4172E2581F90016019F /* Build configuration list for PBXProject "License-to-add" */ = {
+		6FE9E4172E2581F90016019F /* Build configuration list for PBXProject "License-To-Add" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6FE9E4182E2581F90016019F /* Debug */,
