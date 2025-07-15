@@ -65,6 +65,30 @@ The theorem proving interface provides a user-facing API for automated theorem p
 
 ### Requirement 6
 
+**User Story:** As a researcher with multiple theorems, I want to submit batch processing requests, so that I can efficiently process large sets of mathematical problems.
+
+#### Acceptance Criteria
+
+1. WHEN submitting a batch request THEN the system SHALL accept multiple theorem statements in a single API call
+2. WHEN processing batches THEN the system SHALL utilize Claude API for parallel theorem analysis and reasoning
+3. WHEN a batch is submitted THEN the system SHALL return a batch identifier and individual session IDs for each theorem
+4. WHEN querying batch status THEN the system SHALL provide progress for individual theorems and overall completion percentage
+5. WHEN batch processing completes THEN the system SHALL return results for all theorems with individual success/failure status
+
+### Requirement 7
+
+**User Story:** As a security-conscious user, I want secure authentication, so that my theorem proving sessions are protected and authorized.
+
+#### Acceptance Criteria
+
+1. WHEN accessing the API THEN the system SHALL require authentication via Cloudflare Warp tunnel
+2. WHEN authenticating THEN the system SHALL support FIDO2/WebAuthn with YubiKey hardware tokens
+3. WHEN a user authenticates THEN the system SHALL establish a secure session with appropriate token expiration
+4. IF authentication fails THEN the system SHALL return appropriate error codes and rate limit failed attempts
+5. WHEN session expires THEN the system SHALL require re-authentication before allowing further API access
+
+### Requirement 8
+
 **User Story:** As a system integrator, I want comprehensive error handling and logging, so that I can diagnose issues and monitor system performance.
 
 #### Acceptance Criteria
