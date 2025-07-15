@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "name": "License Compliance Validator",
+  "description": "Monitors source code files and validates that they contain proper license headers and that required license files exist",
+  "version": "1",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      "src/*.swift",
+      "src/*.py",
+      "src/*.js",
+      "src/*.rs",
+      "src/*.java",
+      "README.md",
+      "licenses/LICENSE_AGPL.txt",
+      "licenses/LICENSE_PPL.txt"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Check license compliance by: 1) Verifying all source files in src/ contain \"Copyright (C) Ryan Oates\" headers, 2) Confirming README.md and license files (LICENSE_AGPL.txt, LICENSE_PPL.txt) exist in their proper locations, 3) Validating that README.md contains authorship metadata for Ryan Oates. Report any missing headers or files that need attention."
+  }
+}

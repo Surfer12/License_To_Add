@@ -1,0 +1,18 @@
+{
+  "enabled": true,
+  "name": "Upload Release to Zenodo",
+  "description": "Automatically uploads project releases to Zenodo repository when a GitHub release is published, including metadata and release files",
+  "version": "1",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      ".github/workflows/*.yml",
+      ".github/workflows/*.yaml",
+      "zenodo_metadata.json"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Create or update a GitHub Actions workflow file that automatically uploads releases to Zenodo when a release is published. The workflow should:\n\n1. Trigger on release published events\n2. Set up Python environment\n3. Install required dependencies (requests)\n4. Use ZENODO_TOKEN secret for authentication\n5. Read metadata from zenodo_metadata.json\n6. Create a new Zenodo deposition\n7. Upload the release ZIP file\n8. Provide clear logging of the upload process\n\nInclude all the steps from the provided workflow configuration, ensuring proper error handling and clear success messages."
+  }
+}

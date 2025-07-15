@@ -1,0 +1,18 @@
+{
+  "name": "License Compliance Validator",
+  "description": "Validates license compliance by checking for copyright headers, required files, and authorship metadata",
+  "trigger": {
+    "type": "manual",
+    "label": "Check License Compliance"
+  },
+  "request": "Please validate license compliance for this project by:\n\n1. Checking that all source files in ./src contain the copyright header 'Copyright (C) Ryan Oates'\n2. Verifying that required license files exist: LICENSE_AGPL.txt and LICENSE_PPL.txt in the licenses/ directory\n3. Confirming that README.md exists and contains authorship metadata for Ryan Oates\n4. Searching for any files missing proper license headers in common source file extensions (.py, .js, .rs, .swift, .java)\n5. Providing a summary report of compliance status\n\nIf any issues are found, please provide specific recommendations for fixing them.",
+  "context": {
+    "includeFiles": [
+      "src/**/*",
+      "licenses/LICENSE_AGPL.txt", 
+      "licenses/LICENSE_PPL.txt",
+      "README.md",
+      "AUTHORS.md"
+    ]
+  }
+}
