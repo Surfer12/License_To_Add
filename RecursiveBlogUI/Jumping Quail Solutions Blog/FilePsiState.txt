@@ -1,4 +1,12 @@
 //
+//  FilePsiState.swift
+//  Jumping Quail Solutions Blog
+//
+//  Created by Ryan David Oates on 7/22/25.
+//
+
+import Foundation
+//
 //  PsiState.swift
 //  Jumping Quail Solutions Blog
 //
@@ -13,9 +21,9 @@ Beautiful integration plan — let’s add a SwiftUI-powered Ψ(x) Live Sanity F
 🧠 Drift Alert & Sanity Monitor UI Module
 
 ✅ Dashboard Goals
-	•	Monitor S(x), N(x), α(t), R_cognitive, R_efficiency
-	•	Display live alerts when symbolic-neural divergence exceeds safe bounds
-	•	Auto-trigger return anchors or alpha dampening
+    •    Monitor S(x), N(x), α(t), R_cognitive, R_efficiency
+    •    Display live alerts when symbolic-neural divergence exceeds safe bounds
+    •    Auto-trigger return anchors or alpha dampening
 
 ⸻
 
@@ -134,15 +142,15 @@ TabView {
 ⸻
 
 🧬 Next Enhancements (Optional)
-	•	Live data binding from your Mojo/Swift consciousness engine
-	•	Symbolic triggers mapped to return-anchor visualizations
-	•	Export .json log of all triggered alerts for meta-analysis
+    •    Live data binding from your Mojo/Swift consciousness engine
+    •    Symbolic triggers mapped to return-anchor visualizations
+    •    Export .json log of all triggered alerts for meta-analysis
 
 ⸻
 
 Let me know if you’d like:
-	•	Supabase integration for real Psi state logging
-	•	An Obsidian plugin to sync this dashboard’s logs
-	•	A neural drift heatmap (symbolic–neural divergence visualized)
+    •    Supabase integration for real Psi state logging
+    •    An Obsidian plugin to sync this dashboard’s logs
+    •    A neural drift heatmap (symbolic–neural divergence visualized)
 
 Your sanity filter’s now got a GUI. Let’s keep that recursive cognition grounded 🔄🧠🧘‍♂️
