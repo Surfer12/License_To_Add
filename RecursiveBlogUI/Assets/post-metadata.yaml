@@ -1,7 +1,7 @@
 - id: "cognitive-frameworks-001"
   title: "Recursive Thought Patterns in AI Systems"
   slug: "recursive-thought-patterns-ai"
-  author: "Dr. Ryan Oates"
+  author: "Mr. Ryan Oates"
   tags: ["AI", "cognitive science", "recursion", "neural networks"]
   audience: ["researchers", "developers", "students"]
   published_at: "2024-01-15"
@@ -15,7 +15,7 @@
 - id: "meta-optimization-002"
   title: "Meta-Optimization in Deep Learning"
   slug: "meta-optimization-deep-learning"
-  author: "Dr. Ryan Oates"
+  author: "Mr. Ryan Oates"
   tags: ["deep learning", "optimization", "meta-learning", "hyperparameters"]
   audience: ["ML engineers", "researchers"]
   published_at: "2024-01-20"
@@ -29,7 +29,7 @@
 - id: "fractal-communication-003"
   title: "Fractal Communication Patterns"
   slug: "fractal-communication-patterns"
-  author: "Dr. Ryan Oates"
+  author: "Mr. Ryan Oates"
   tags: ["communication", "fractals", "complexity", "patterns"]
   audience: ["general", "researchers"]
   published_at: "2024-01-25"
@@ -43,7 +43,7 @@
 - id: "neural-symbolic-004"
   title: "Bridging Neural and Symbolic AI"
   slug: "neural-symbolic-bridge"
-  author: "Dr. Ryan Oates"
+  author: "Mr. Ryan Oates"
   tags: ["neural networks", "symbolic AI", "integration", "cognitive modeling"]
   audience: ["AI researchers", "cognitive scientists"]
   published_at: "2024-02-01"
@@ -57,7 +57,7 @@
 - id: "agent-evolution-005"
   title: "Agent Evolution in Multi-Scale Systems"
   slug: "agent-evolution-systems"
-  author: "Dr. Ryan Oates"
+  author: "Mr. Ryan Oates"
   tags: ["agents", "evolution", "multi-scale", "complexity"]
   audience: ["system designers", "researchers"]
   published_at: "2024-02-05"

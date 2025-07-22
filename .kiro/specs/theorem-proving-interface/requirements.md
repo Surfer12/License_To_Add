@@ -97,3 +97,39 @@ The theorem proving interface provides a user-facing API for automated theorem p
 2. WHEN processing requests THEN the system SHALL log all operations with appropriate detail levels
 3. WHEN system resources are exhausted THEN the system SHALL return resource limitation errors
 4. WHEN the neuro-symbolic engine encounters errors THEN the system SHALL provide diagnostic information about the reasoning failure
+
+### Requirement 9
+
+**User Story:** As a system administrator, I want performance guarantees and monitoring, so that I can ensure reliable service delivery.
+
+#### Acceptance Criteria
+
+1. WHEN processing simple theorems THEN the system SHALL respond within 5 seconds for 95% of requests
+2. WHEN handling concurrent sessions THEN the system SHALL support at least 100 simultaneous proof sessions
+3. WHEN LaTeX expressions exceed 10KB THEN the system SHALL return size limit errors with guidance
+4. WHEN network interruptions occur during long proofs THEN the system SHALL resume from last checkpoint
+5. WHEN monitoring system health THEN the system SHALL provide real-time metrics for CPU, memory, and queue depth
+
+### Requirement 10
+
+**User Story:** As a user concerned about privacy, I want data protection and retention controls, so that my mathematical work remains secure and private.
+
+#### Acceptance Criteria
+
+1. WHEN a user requests data deletion THEN the system SHALL remove all personal proof history within 30 days
+2. WHEN storing proof sessions THEN the system SHALL encrypt all data at rest and in transit
+3. WHEN proof sessions expire THEN the system SHALL automatically purge session data after 90 days
+4. WHEN users access their data THEN the system SHALL provide export functionality in standard formats
+5. WHEN processing personal data THEN the system SHALL comply with GDPR and similar privacy regulations
+
+### Requirement 11
+
+**User Story:** As a user with accessibility needs, I want inclusive interface design, so that I can effectively use the theorem proving system regardless of my abilities.
+
+#### Acceptance Criteria
+
+1. WHEN displaying LaTeX expressions THEN the system SHALL provide alternative text descriptions for screen readers
+2. WHEN rendering mathematical notation THEN the system SHALL support high contrast and scalable font options
+3. WHEN providing error messages THEN the system SHALL use clear, jargon-free language with suggested corrections
+4. WHEN designing CLI interfaces THEN the system SHALL support keyboard navigation and voice input compatibility
+5. WHEN presenting proof results THEN the system SHALL offer multiple output formats (visual, textual, audio-friendly)
