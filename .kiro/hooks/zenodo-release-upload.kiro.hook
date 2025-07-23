@@ -4,7 +4,7 @@
   "description": "Automatically uploads project releases to Zenodo repository when a GitHub release is published, including metadata and release files",
   "version": "1",
   "when": {
-    "type": "fileEdited",
+    "type": "userTriggered",
     "patterns": [
       ".github/workflows/*.yml",
       ".github/workflows/*.yaml",
