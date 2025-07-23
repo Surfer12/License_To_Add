@@ -62,7 +62,6 @@ This work originates from interdisciplinary research at the intersection of comp
 ## Contact Information
 
 **Primary Contact**: ryan_oates@my.cuesta.edu  
-**Academic Affiliation**: University of California, Santa Barbara  
 **Research Areas**: Cognitive Architecture, Hybrid Reasoning Systems, Meta-Epistemology
 
 For collaboration inquiries, commercial licensing, or academic citations, please reach out via email.
